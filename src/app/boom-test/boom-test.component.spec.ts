@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ToDoItemsComponent } from './to-do-items.component';
+import { BoomTestComponent } from './boom-test.component';
 
-describe('ToDoItemsComponent', () => {
-  let component: ToDoItemsComponent;
-  let fixture: ComponentFixture<ToDoItemsComponent>;
+describe('BoomTestComponent', () => {
+  let component: BoomTestComponent;
+  let fixture: ComponentFixture<BoomTestComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ToDoItemsComponent]
+      imports: [BoomTestComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ToDoItemsComponent);
+    fixture = TestBed.createComponent(BoomTestComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
@@ -20,4 +20,4 @@ describe('ToDoItemsComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
-}); 
+});
